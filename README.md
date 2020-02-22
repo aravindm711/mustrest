@@ -1,7 +1,9 @@
 # Must REST
 
-A REST API Server Flask Server that maintains the details of a list of countries.
+An Implementation of Distributed Cloud Storage using REST API Server
 
-* Create, Update, List the details as per the request.
+* Upload, Download, Delete, List the files on/from the Server as per the request.
+
+* Implemented Load Balancing by maintaining multiple nodes and splitting files into fixed size chunks, making copies and placing them in unique nodes.
 
 * Postman collection for testing is accessible [here](https://www.postman.com/collections/d43b6ebe305d0aec317e).
